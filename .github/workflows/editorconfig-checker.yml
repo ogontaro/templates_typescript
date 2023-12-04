@@ -7,7 +7,8 @@ on:
 
 jobs:
   editorconfig:
-    runs-on: [ templates-terraform-runners ]
+    runs-on: [ templates-typescript-runners ]
+
     steps:
       - uses: actions/checkout@v4
       - uses: editorconfig-checker/action-editorconfig-checker@main
